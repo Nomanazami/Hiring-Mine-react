@@ -1,0 +1,78 @@
+
+.containerr{
+    padding-top: 10px;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    top: 0%;
+    left: 0%;
+    right: 0%;   
+    z-index: 16;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: blueviolet;
+    font-size: 2rem;
+}
+.header input{
+    width: 20%;
+
+}
+.header p{
+    font-size: 1.2rem;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+a{
+    font-weight:200;
+    text-transform: uppercase;
+    padding: 0 10px;
+    flex-wrap: nowrap;
+    color: black;
+}
+.rightMenu{
+    a{
+        font-weight:600;
+        text-transform: uppercase;
+        margin-right: 10px;
+    }
+}
+.burgerNav{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    background: white;
+    width: 250px;
+    list-style: none;
+    z-index: 16;
+    /* padding: 5px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    text-align: center;
+
+}
+
+.burgerNav li{
+    padding: 15px 0;
+    border-bottom: 1px solid gray;
+}
+
+.burgerNav a{
+    font-weight: 600;
+}
+
+.pic{
+    height: 36px;
+    width: 186px;
+}
